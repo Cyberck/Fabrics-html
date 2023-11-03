@@ -1,14 +1,15 @@
+@import url(../fonts.css);
 /* root-start */
 :root {
-    --MR: Montserrat-Regular;
-    --MM: Montserrat-Medium;
-    --ML: Montserrat-Light;
-    --MS: Montserrat-SemiBold;
-    --SR: MarckScript-Regular;
-    --white:#fff;
-    --pink:#BF1E77;
-    --grey:#545155;
-    --bg-white:#FBF7F4;
+    --Montserrat-Regular: 'Montserrat-Regular';
+    --Montserrat-Medium: 'Montserrat-Medium';
+    --Montserrat-Light: 'Montserrat-Light';
+    --Montserrat-SemiBold: 'Montserrat-SemiBold';
+    --MarckScript-Regular: 'MarckScript-Regular';
+    --white: #fff;
+    --pink: #BF1E77;
+    --grey: #545155;
+    --bg-white: #FBF7F4;
 }
 
 /* category */

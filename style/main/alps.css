@@ -1,32 +1,44 @@
+@import url(../fonts.css);
+
 /* root-start */
 :root {
-    --MR: Montserrat-Regular;
-    --MM: Montserrat-Medium;
-    --ML: Montserrat-Light;
-    --MS: Montserrat-SemiBold;
-    --SR: MarckScript-Regular;
+    --Montserrat-Regular: 'Montserrat-Regular';
+    --Montserrat-Medium: 'Montserrat-Medium';
+    --Montserrat-Light: 'Montserrat-Light';
+    --Montserrat-SemiBold: 'Montserrat-SemiBold';
+    --MarckScript-Regular: 'MarckScript-Regular';
     --white: #fff;
     --pink: #BF1E77;
     --grey: #545155;
     --bg-white: #FBF7F4;
 }
 
-.alps {}
+.alps-icon {
+    color: var(--pink);
 
-.alps-count {
-    padding-bottom: 90px;
-    padding-top: 113px;
+}
+
+
+/* ***** Root end ***** */
+
+
+.alps {
+    margin-top: 90px;
+    margin-bottom: 113px;
+}
+
+.alps-count__elps {
     position: relative;
 }
 
 .alps-bg__title {
     position: absolute;
-    top: 0;
+    top: -110px;
     left: 350px;
     z-index: -1;
     text-align: center;
     color: var(--pink);
-    font-family: var(--SR);
+    font-family: var(--MarckScript-Regular);
     font-size: 168px;
     line-height: 252px;
     opacity: 0.1;
@@ -35,7 +47,7 @@
 .alps-big__title {
     color: var(--grey);
     text-align: center;
-    font-family: var(--MR);
+    font-family: var(--Montserrat-Regular);
     font-size: 48px;
     line-height: 72px;
     text-transform: uppercase;
@@ -53,52 +65,86 @@
     width: 100%;
 }
 
-.alps-one__min-title {
+.alps-square__mintitle {
     padding-top: 24px;
     color: var(--pink);
-    font-family: var(--MR);
+    font-family: var(--Montserrat-Regular);
     font-size: 12px;
     line-height: 18px;
     opacity: 0.7;
 }
 
-.item-one__title {
+.alps-square__title {
     color: var(--pink);
-    font-family: var(--MR);
+    font-family: var(--Montserrat-Regular);
     font-size: 24px;
     line-height: 36px;
+    margin-bottom: 16px;
 }
 
-.item-one__min-title {
-    display: flex;
-    padding-top: 20px;
-}
 
-.min-title {
+.alps-square__mean {
     color: var(--grey);
-    font-family: var(--MS);
+    font-family: var(--Montserrat-SemiBold);
     font-size: 16px;
     line-height: 24px;
+}
+
+.alps-square__mean:nth-of-type(2) {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.alps-square__mean span {
+    color: var(--grey);
+    font-family: var(--Montserrat-Regular);
+    font-size: 16px;
+    line-height: 150%;
+    opacity: 0.5;
+    margin-left: 10px;
 }
 
 .min-title__text {
     padding-left: 10px;
     color: var(--grey);
-    font-family: var(--MR);
+    font-family: var(--Montserrat-Regular);
     font-size: 16px;
     line-height: 24px;
 }
 
-.item-one__price {
-    margin-top: 40px;
+.alps-square__price-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.alps-price-box__inbox {
     display: flex;
     align-items: center;
 }
 
-.item-one__purchase {
-    padding-left: 170px;
+.alps-square__price {
+    margin-right: 20px;
+    color: var(--grey);
+    font-family: var(--Montserrat-Medium);
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.alps-square__sale {
+    color: var(--1, #545155);
+    text-align: right;
+    font-family: var(--Montserrat-Regular);
+    font-size: 16px;
+    line-height: 150%;
+    opacity: 0.3;
+}
+
+.alps-square__purchase {
+    padding-left: 0px;
     color: var(--pink);
-    font-family: var(--MR);
+    font-family: var(--Montserrat-Regular);
     font-size: 16px;
     line-height: 24px;
 }
@@ -110,12 +156,6 @@
     background: var(--pink);
     opacity: 0.4;
 }
-
-.alps-icon {
-    color: var(--pink);
-}
-
-
 
 
 /* alps-end */

@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "dae.vscode-mac-color-picker"
+        "dae.vscode-mac-color-picker",
+        "prasadbobby.auto-rename-tag"
     ]
 }
