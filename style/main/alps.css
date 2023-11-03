@@ -1,0 +1,121 @@
+/* root-start */
+:root {
+    --MR: Montserrat-Regular;
+    --MM: Montserrat-Medium;
+    --ML: Montserrat-Light;
+    --MS: Montserrat-SemiBold;
+    --SR: MarckScript-Regular;
+    --white: #fff;
+    --pink: #BF1E77;
+    --grey: #545155;
+    --bg-white: #FBF7F4;
+}
+
+.alps {}
+
+.alps-count {
+    padding-bottom: 90px;
+    padding-top: 113px;
+    position: relative;
+}
+
+.alps-bg__title {
+    position: absolute;
+    top: 0;
+    left: 350px;
+    z-index: -1;
+    text-align: center;
+    color: var(--pink);
+    font-family: var(--SR);
+    font-size: 168px;
+    line-height: 252px;
+    opacity: 0.1;
+}
+
+.alps-big__title {
+    color: var(--grey);
+    text-align: center;
+    font-family: var(--MR);
+    font-size: 48px;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.alps-item {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alps-img {
+    max-width: 320px;
+    width: 100%;
+}
+
+.alps-one__min-title {
+    padding-top: 24px;
+    color: var(--pink);
+    font-family: var(--MR);
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 0.7;
+}
+
+.item-one__title {
+    color: var(--pink);
+    font-family: var(--MR);
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.item-one__min-title {
+    display: flex;
+    padding-top: 20px;
+}
+
+.min-title {
+    color: var(--grey);
+    font-family: var(--MS);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.min-title__text {
+    padding-left: 10px;
+    color: var(--grey);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.item-one__price {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.item-one__purchase {
+    padding-left: 170px;
+    color: var(--pink);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.alps-line {
+    margin: 24px 0px;
+    height: 1px;
+    background: var(--pink);
+    opacity: 0.4;
+}
+
+.alps-icon {
+    color: var(--pink);
+}
+
+
+
+
+/* alps-end */

@@ -1,0 +1,25 @@
+/* root-start */
+:root {
+    --MR: Montserrat-Regular;
+    --MM: Montserrat-Medium;
+    --ML: Montserrat-Light;
+    --MS: Montserrat-SemiBold;
+    --SR: MarckScript-Regular;
+    --white:#fff;
+    --pink:#BF1E77;
+    --grey:#545155;
+    --bg-white:#FBF7F4;
+}
+
+.main-item {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.main-item__img {
+    padding-left: 10px;
+    max-width: 350px;
+    width: 100%;
+}
